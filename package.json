@@ -11,7 +11,8 @@
     "jest": "jest",
     "jest:watch": "jest --watch",
     "jest:coverage": "jest --coverage",
-    "jest:coverage:watch": "jest --coverage --watch"
+    "jest:coverage:watch": "jest --coverage --watch",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.0",
     "@tailwindcss/typography": "^0.5.4",
+    "@testing-library/cypress": "^8.0.3",
     "@testing-library/dom": "^8.16.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -36,6 +38,7 @@
     "@typescript-eslint/parser": "^5.30.6",
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.7",
+    "cypress": "^10.3.0",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
