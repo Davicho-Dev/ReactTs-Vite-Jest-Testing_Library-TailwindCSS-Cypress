@@ -1,10 +1,13 @@
-import React from 'react'
+import { StrictMode } from 'react'
+
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+
+import CommonRouter from './router/CommonRouter'
+
+import './styles/globals.sass'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+	<StrictMode>
+		<CommonRouter />
+	</StrictMode>
 )
